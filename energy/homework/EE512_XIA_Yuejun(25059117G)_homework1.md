@@ -79,7 +79,7 @@ $$
 
 **Energy density comparison**:
 
-- Primary batteries typically have higher specific energy density because they don't need to consider reversibility, allowing for more active materials and optimized chemical reactions
+- Primary batteries typically have higher specific energy density because they don't need to consider reversibility, allowing for more active materials and optimized chemical reactions.
 
 ---
 
@@ -120,7 +120,7 @@ $$
 
 $$
 \begin{align}
-P_{maximum} &=(1C \ \ discharge \ \ current)* V_{bus \ \ voltage} \\
+P_{maximum} &=V_{bus \ \ voltage} \cdot (1C \ \ discharge \ \ current) \\
 & = 800 V × 120 A = 96 kW
 \end{align}
 $$
@@ -152,7 +152,7 @@ The electrical double layer distance *d* is on the order of the ionic radius,  T
 
 ### 2) 
 
-#### 1. CV curve characteristics:
+#### 1. CV curve :
 
 Ideal capacitor: Rectangular shape for CV curve.
 
@@ -161,7 +161,7 @@ Reasons for practical deviations:
 1. Capacitor with resistivity lead to a diamond shape.
 2. Due to influence of redox reactions,cause peaks  in cv curve .
 
-#### 2. Specific capacitance calculation:
+#### 2. Specific capacitance :
 
 
 $$
@@ -181,7 +181,7 @@ $$
 
 ### 3)
 
-#### i. Equivalent series resistance calculation:
+#### 1. ESR :
 
 
 $$
@@ -198,7 +198,7 @@ ESR:R_s &= \Delta V /(2I)
 $$
 
 
-#### 2. ESR impact on power density:
+#### 2.  Effects of smaller ESR  on  supercapacitor performance:
 
 **Maximum power density analysis**:
 
@@ -211,10 +211,10 @@ $$
 
 
 - Lower ESR means:
-  - Lower power loss (I²R loss).
-  - Higher operating voltage (reduced IR drop).
+  - Lower power loss .
+  - Higher operating voltage .
   - Faster charge-discharge response.
-  - Achieving higher instantaneous power output under high current conditions.
+  - Achieving higher  power output under high current conditions.
 
 ---
 
